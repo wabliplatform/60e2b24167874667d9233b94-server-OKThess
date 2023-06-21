@@ -159,6 +159,7 @@ components:
     task:
       example:
         tpriority: tpriority
+        tstatus: tstatus
         ttype: ttype
         tname: tname
         _id: _id
@@ -174,9 +175,12 @@ components:
           type: string
         tpriority:
           type: string
+        tstatus:
+          type: string
       required:
       - tname
       - tperson
       - tpriority
+      - tstatus
       - ttype
       type: object

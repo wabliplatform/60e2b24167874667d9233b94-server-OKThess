@@ -15,7 +15,10 @@ ttype:String ,
 tperson:String , 
 
 
-tpriority:String 
+tpriority:String , 
+
+
+tstatus:String 
 
 
 
